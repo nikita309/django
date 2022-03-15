@@ -1,0 +1,806 @@
+INFO 2022-03-01 19:32:08,134 autoreload 14784 10612 Watching for file changes with StatReloader
+INFO 2022-03-01 19:33:13,665 autoreload 14784 10612 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:33:16,505 autoreload 5608 7636 Watching for file changes with StatReloader
+INFO 2022-03-01 19:33:43,287 autoreload 5608 7636 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:33:45,892 autoreload 10792 13648 Watching for file changes with StatReloader
+INFO 2022-03-01 19:34:10,123 autoreload 10792 13648 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:34:12,989 autoreload 15492 2664 Watching for file changes with StatReloader
+INFO 2022-03-01 19:34:52,217 autoreload 15492 2664 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:34:55,015 autoreload 12308 476 Watching for file changes with StatReloader
+INFO 2022-03-01 19:36:32,536 autoreload 12308 476 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:36:34,512 autoreload 12384 2248 Watching for file changes with StatReloader
+INFO 2022-03-01 19:37:27,491 autoreload 12384 2248 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:37:29,623 autoreload 9076 11484 Watching for file changes with StatReloader
+INFO 2022-03-01 19:41:07,775 autoreload 9076 11484 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:41:10,528 autoreload 2120 5556 Watching for file changes with StatReloader
+INFO 2022-03-01 19:41:44,408 autoreload 2120 5556 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:41:46,246 autoreload 10904 2216 Watching for file changes with StatReloader
+INFO 2022-03-01 19:51:52,083 basehttp 10904 9068 "GET /msg/ HTTP/1.1" 200 6863
+INFO 2022-03-01 19:52:00,688 basehttp 10904 1576 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-01 19:52:17,237 basehttp 10904 1576 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-01 19:56:46,534 basehttp 10904 1576 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-01 19:56:46,577 basehttp 10904 11044 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-01 19:56:51,344 basehttp 10904 1576 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-02 14:39:33,469 autoreload 2616 3128 Watching for file changes with StatReloader
+INFO 2022-03-02 14:41:02,922 basehttp 2616 15380 "GET /msg/ HTTP/1.1" 200 6863
+WARNING 2022-03-02 14:41:06,680 log 2616 15380 Not Found: /favicon.ico
+WARNING 2022-03-02 14:41:06,680 basehttp 2616 15380 "GET /favicon.ico HTTP/1.1" 404 2228
+INFO 2022-03-02 14:49:16,140 basehttp 2616 8052 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-02 14:49:47,846 basehttp 2616 8052 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-02 14:51:24,119 basehttp 2616 10724 "GET /msg/ HTTP/1.1" 200 6863
+INFO 2022-03-02 14:51:27,798 basehttp 2616 10724 "GET /msg/?format=json HTTP/1.1" 200 47
+INFO 2022-03-02 15:11:10,713 autoreload 9860 15724 Watching for file changes with StatReloader
+WARNING 2022-03-02 15:11:20,780 log 9860 11808 Not Found: /employees/
+WARNING 2022-03-02 15:11:20,780 basehttp 9860 11808 "GET /employees/ HTTP/1.1" 404 2225
+INFO 2022-03-02 15:11:42,502 basehttp 9860 11808 "GET /msg/ HTTP/1.1" 200 6828
+INFO 2022-03-02 15:19:03,498 basehttp 9860 10952 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 13:18:48,231 autoreload 8920 17084 Watching for file changes with StatReloader
+WARNING 2022-03-03 13:19:06,013 log 8920 12912 Not Found: /
+WARNING 2022-03-03 13:19:06,021 basehttp 8920 12912 "GET / HTTP/1.1" 404 2177
+WARNING 2022-03-03 13:19:06,415 log 8920 12912 Not Found: /favicon.ico
+WARNING 2022-03-03 13:19:06,423 basehttp 8920 12912 "GET /favicon.ico HTTP/1.1" 404 2228
+ERROR 2022-03-03 13:19:17,490 log 8920 12912 Internal Server Error: /msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\django-project\health_check_project\health_check_app\views.py", line 16, in get
+    return Response(serializer.data)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Python310\lib\site-packages\rest_framework\relations.py", line 378, in to_representation
+    assert 'request' in self.context, (
+AssertionError: `HyperlinkedIdentityField` requires the request in the serializer context. Add `context={'request': request}` when instantiating the serializer.
+ERROR 2022-03-03 13:19:17,498 basehttp 8920 12912 "GET /msg/ HTTP/1.1" 500 116976
+INFO 2022-03-03 13:19:56,699 autoreload 8920 17084 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 13:19:59,918 autoreload 11740 18264 Watching for file changes with StatReloader
+INFO 2022-03-03 13:20:51,187 autoreload 11740 18264 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 13:20:53,565 autoreload 12376 8076 Watching for file changes with StatReloader
+ERROR 2022-03-03 13:20:58,484 log 12376 9948 Internal Server Error: /msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\django-project\health_check_project\health_check_app\views.py", line 17, in get
+    return Response(serializer.data)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Python310\lib\site-packages\rest_framework\relations.py", line 378, in to_representation
+    assert 'request' in self.context, (
+AssertionError: `HyperlinkedIdentityField` requires the request in the serializer context. Add `context={'request': request}` when instantiating the serializer.
+ERROR 2022-03-03 13:20:58,492 basehttp 12376 9948 "GET /msg/ HTTP/1.1" 500 117114
+ERROR 2022-03-03 13:21:01,066 log 12376 9948 Internal Server Error: /msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\django-project\health_check_project\health_check_app\views.py", line 17, in get
+    return Response(serializer.data)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 522, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "C:\Python310\lib\site-packages\rest_framework\relations.py", line 378, in to_representation
+    assert 'request' in self.context, (
+AssertionError: `HyperlinkedIdentityField` requires the request in the serializer context. Add `context={'request': request}` when instantiating the serializer.
+ERROR 2022-03-03 13:21:01,066 basehttp 12376 9948 "GET /msg/ HTTP/1.1" 500 117114
+INFO 2022-03-03 13:21:36,510 autoreload 12376 8076 E:\django-project\health_check_project\health_check_app\serializers.py changed, reloading.
+INFO 2022-03-03 13:21:38,451 autoreload 10144 10372 Watching for file changes with StatReloader
+INFO 2022-03-03 13:21:43,589 basehttp 10144 13940 "GET /msg/ HTTP/1.1" 200 7075
+INFO 2022-03-03 13:22:25,276 autoreload 10144 10372 E:\django-project\health_check_project\health_check_project\settings.py changed, reloading.
+INFO 2022-03-03 13:22:27,186 autoreload 16832 13160 Watching for file changes with StatReloader
+INFO 2022-03-03 13:22:32,559 basehttp 16832 3844 "GET /msg/ HTTP/1.1" 200 6828
+INFO 2022-03-03 13:22:51,316 basehttp 16832 3844 "OPTIONS /msg/ HTTP/1.1" 200 7077
+INFO 2022-03-03 13:22:59,742 basehttp 16832 3844 "OPTIONS /msg/ HTTP/1.1" 200 7077
+INFO 2022-03-03 13:23:01,607 basehttp 16832 3844 "OPTIONS /msg/ HTTP/1.1" 200 7077
+INFO 2022-03-03 13:23:02,838 basehttp 16832 3844 "OPTIONS /msg/ HTTP/1.1" 200 7077
+INFO 2022-03-03 13:23:08,025 basehttp 16832 3844 "GET /msg/ HTTP/1.1" 200 6828
+INFO 2022-03-03 13:23:10,473 basehttp 16832 3844 "GET /msg/ HTTP/1.1" 200 6828
+INFO 2022-03-03 13:23:15,238 basehttp 16832 3844 "GET /msg/?format=api HTTP/1.1" 200 6883
+INFO 2022-03-03 13:39:56,895 basehttp 16832 3488 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 13:54:01,721 basehttp 16832 12304 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 13:55:18,627 basehttp 16832 12304 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 13:56:05,416 basehttp 16832 12304 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 13:56:17,797 basehttp 16832 12304 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 13:56:19,037 basehttp 16832 12304 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 13:56:21,165 basehttp 16832 12304 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 13:59:10,534 basehttp 16832 12304 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:10:15,276 basehttp 16832 10764 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:10:18,905 basehttp 16832 10764 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:20:38,531 basehttp 16832 5644 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:20:46,013 basehttp 16832 5644 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:27:58,361 basehttp 16832 18156 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:28:01,563 basehttp 16832 18156 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:28:02,923 basehttp 16832 18156 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:28:25,444 basehttp 16832 18156 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:29:03,336 basehttp 16832 18156 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:29:24,983 basehttp 16832 18156 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:37:46,234 basehttp 16832 16472 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:40:33,498 basehttp 16832 16472 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:43:35,082 basehttp 16832 16472 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:45:25,664 basehttp 16832 16472 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:50:01,714 basehttp 16832 16472 "GET /msg/ HTTP/1.1" 200 47
+INFO 2022-03-03 14:50:56,212 autoreload 16832 13160 E:\django-project\health_check_project\health_check_app\models.py changed, reloading.
+INFO 2022-03-03 14:50:59,164 autoreload 12292 9764 Watching for file changes with StatReloader
+ERROR 2022-03-03 14:51:06,857 log 12292 4508 Internal Server Error: /msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\django-project\health_check_project\health_check_app\views.py", line 17, in get
+    return Response(serializer.data)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+ERROR 2022-03-03 14:51:06,888 basehttp 12292 4508 "GET /msg/ HTTP/1.1" 500 181895
+ERROR 2022-03-03 14:51:12,528 log 12292 3936 Internal Server Error: /msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\django-project\health_check_project\health_check_app\views.py", line 17, in get
+    return Response(serializer.data)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+ERROR 2022-03-03 14:51:12,536 basehttp 12292 3936 "GET /msg/?format=api HTTP/1.1" 500 183428
+ERROR 2022-03-03 14:53:04,282 log 12292 3936 Internal Server Error: /msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\django-project\health_check_project\health_check_app\views.py", line 17, in get
+    return Response(serializer.data)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+ERROR 2022-03-03 14:53:04,290 basehttp 12292 3936 "GET /msg/?format=api HTTP/1.1" 500 183428
+ERROR 2022-03-03 14:53:11,146 log 12292 3936 Internal Server Error: /msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\generic\base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Python310\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "E:\django-project\health_check_project\health_check_app\views.py", line 17, in get
+    return Response(serializer.data)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 768, in data
+    ret = super().data
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Python310\lib\site-packages\rest_framework\serializers.py", line 686, in to_representation
+    return [
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 280, in __iter__
+    self._fetch_all()
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+ERROR 2022-03-03 14:53:11,146 basehttp 12292 3936 "GET /msg/ HTTP/1.1" 500 182845
+INFO 2022-03-03 14:53:13,760 basehttp 12292 3936 "GET /admin/ HTTP/1.1" 302 0
+INFO 2022-03-03 14:53:14,238 basehttp 12292 3936 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2215
+INFO 2022-03-03 14:53:25,254 basehttp 12292 3936 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-03-03 14:53:26,053 basehttp 12292 3936 "GET /admin/ HTTP/1.1" 200 4970
+ERROR 2022-03-03 14:53:37,256 log 12292 3936 Internal Server Error: /admin/health_check_app/msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 622, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\sites.py", line 236, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1828, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+ERROR 2022-03-03 14:53:37,264 basehttp 12292 3936 "GET /admin/health_check_app/msg/ HTTP/1.1" 500 176537
+INFO 2022-03-03 14:53:39,893 basehttp 12292 3936 "GET /admin/ HTTP/1.1" 200 4970
+INFO 2022-03-03 14:53:42,359 basehttp 12292 3936 "GET /admin/health_check_app/msg/add/ HTTP/1.1" 200 5840
+INFO 2022-03-03 14:53:42,534 basehttp 12292 3936 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+ERROR 2022-03-03 14:54:01,080 log 12292 3936 Internal Server Error: /admin/health_check_app/msg/add/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.IntegrityError: (1364, "Field 'num' doesn't have a default value")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 622, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\sites.py", line 236, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1670, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1549, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1599, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1108, in save_model
+    obj.save()
+  File "C:\Python310\lib\site-packages\django\db\models\base.py", line 743, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Python310\lib\site-packages\django\db\models\base.py", line 780, in save_base
+    updated = self._save_table(
+  File "C:\Python310\lib\site-packages\django\db\models\base.py", line 885, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Python310\lib\site-packages\django\db\models\base.py", line 923, in _do_insert
+    return manager._insert(
+  File "C:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1301, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1441, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1364, "Field 'num' doesn't have a default value")
+ERROR 2022-03-03 14:54:01,088 basehttp 12292 3936 "POST /admin/health_check_app/msg/add/ HTTP/1.1" 500 208369
+ERROR 2022-03-03 14:55:17,661 log 12292 3936 Internal Server Error: /admin/health_check_app/msg/add/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.IntegrityError: (1364, "Field 'num' doesn't have a default value")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 622, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\sites.py", line 236, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1670, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1549, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1599, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1108, in save_model
+    obj.save()
+  File "C:\Python310\lib\site-packages\django\db\models\base.py", line 743, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Python310\lib\site-packages\django\db\models\base.py", line 780, in save_base
+    updated = self._save_table(
+  File "C:\Python310\lib\site-packages\django\db\models\base.py", line 885, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Python310\lib\site-packages\django\db\models\base.py", line 923, in _do_insert
+    return manager._insert(
+  File "C:\Python310\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1301, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1441, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.IntegrityError: (1364, "Field 'num' doesn't have a default value")
+ERROR 2022-03-03 14:55:17,677 basehttp 12292 3936 "POST /admin/health_check_app/msg/add/ HTTP/1.1" 500 208369
+INFO 2022-03-03 14:55:20,801 basehttp 12292 12392 "GET /admin/ HTTP/1.1" 200 4970
+INFO 2022-03-03 14:55:20,865 basehttp 12292 3936 - Broken pipe from ('127.0.0.1', 57687)
+
+ERROR 2022-03-03 14:55:23,821 log 12292 12392 Internal Server Error: /admin/health_check_app/msg/
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python310\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Python310\lib\site-packages\django\core\handlers\base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 622, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\sites.py", line 236, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Python310\lib\site-packages\django\contrib\admin\options.py", line 1828, in changelist_view
+    'selection_note': _('0 of %(cnt)s selected') % {'cnt': len(cl.result_list)},
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 262, in __len__
+    self._fetch_all()
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 1354, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Python310\lib\site-packages\django\db\models\query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Python310\lib\site-packages\django\db\models\sql\compiler.py", line 1202, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 99, in execute
+    return super().execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 76, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 80, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Python310\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Python310\lib\site-packages\django\db\backends\utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Python310\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "C:\Python310\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "C:\Python310\lib\site-packages\MySQLdb\connections.py", line 254, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'health_check_app_msg.id' in 'field list'")
+ERROR 2022-03-03 14:55:23,829 basehttp 12292 12392 "GET /admin/health_check_app/msg/ HTTP/1.1" 500 176537
+INFO 2022-03-03 14:58:06,456 autoreload 12292 9764 E:\django-project\health_check_project\health_check_app\models.py changed, reloading.
+INFO 2022-03-03 14:58:08,752 autoreload 17792 9016 Watching for file changes with StatReloader
+INFO 2022-03-03 14:58:23,680 autoreload 17792 9016 E:\django-project\health_check_project\health_check_app\models.py changed, reloading.
+INFO 2022-03-03 14:58:25,984 autoreload 13672 7516 Watching for file changes with StatReloader
+INFO 2022-03-03 14:58:57,242 basehttp 13672 7296 "GET /admin/health_check_app/msg/ HTTP/1.1" 200 6305
+INFO 2022-03-03 14:58:57,322 basehttp 13672 7296 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-03-03 14:59:02,532 basehttp 13672 7296 "GET /admin/health_check_app/msg/1/change/ HTTP/1.1" 200 6631
+INFO 2022-03-03 14:59:02,612 basehttp 13672 7296 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-03-03 14:59:06,613 basehttp 13672 7296 "POST /admin/health_check_app/msg/1/change/ HTTP/1.1" 302 0
+INFO 2022-03-03 14:59:06,773 basehttp 13672 7296 "GET /admin/health_check_app/msg/ HTTP/1.1" 200 6526
+INFO 2022-03-03 14:59:06,853 basehttp 13672 7296 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2022-03-03 14:59:09,601 basehttp 13672 7296 "GET /admin/health_check_app/msg/1/change/ HTTP/1.1" 200 6631
+INFO 2022-03-03 14:59:10,613 basehttp 13672 7296 "GET /admin/health_check_app/msg/ HTTP/1.1" 200 6305
+INFO 2022-03-03 14:59:11,780 basehttp 13672 7296 "GET /admin/ HTTP/1.1" 200 5278
+INFO 2022-03-03 14:59:12,903 basehttp 13672 7296 "GET /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2022-03-03 14:59:12,967 basehttp 13672 7296 "GET /admin/ HTTP/1.1" 200 5278
+INFO 2022-03-03 14:59:20,982 basehttp 13672 7296 "GET /msg/ HTTP/1.1" 200 6862
+INFO 2022-03-03 14:59:26,452 basehttp 13672 11632 "GET /msg/ HTTP/1.1" 200 46
+INFO 2022-03-03 17:10:17,297 autoreload 13672 7516 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 17:10:19,781 autoreload 11140 11364 Watching for file changes with StatReloader
+INFO 2022-03-03 17:13:19,293 autoreload 11140 11364 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 17:13:22,230 autoreload 16540 10144 Watching for file changes with StatReloader
+INFO 2022-03-03 17:14:34,239 autoreload 16540 10144 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 17:14:37,335 autoreload 6932 5720 Watching for file changes with StatReloader
+INFO 2022-03-03 17:17:02,527 autoreload 6932 5720 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 17:17:04,990 autoreload 564 11684 Watching for file changes with StatReloader
+INFO 2022-03-03 17:17:31,672 autoreload 9300 9596 Watching for file changes with StatReloader
+WARNING 2022-03-03 20:11:43,286 log 564 13980 Not Found: /
+WARNING 2022-03-03 20:11:43,294 basehttp 564 13980 "GET / HTTP/1.1" 404 2177
+INFO 2022-03-03 20:21:35,745 basehttp 564 7884 "GET /msg/ HTTP/1.1" 200 6862
+INFO 2022-03-03 20:25:32,191 autoreload 564 11684 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 20:25:37,353 autoreload 3632 7060 Watching for file changes with StatReloader
+INFO 2022-03-03 20:26:36,651 autoreload 3632 7060 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 20:26:38,744 autoreload 8044 2172 Watching for file changes with StatReloader
+INFO 2022-03-03 20:26:56,006 autoreload 3620 7684 Watching for file changes with StatReloader
+INFO 2022-03-03 20:28:03,632 autoreload 19208 11672 Watching for file changes with StatReloader
+INFO 2022-03-03 20:29:28,263 autoreload 7572 9800 Watching for file changes with StatReloader
+INFO 2022-03-03 20:29:59,362 autoreload 15200 10048 Watching for file changes with StatReloader
+INFO 2022-03-03 20:30:32,363 autoreload 15200 10048 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 20:30:34,338 autoreload 18464 11720 Watching for file changes with StatReloader
+INFO 2022-03-03 20:43:50,664 autoreload 18464 11720 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-03 20:43:57,273 autoreload 5632 12952 Watching for file changes with StatReloader
+INFO 2022-03-03 21:10:25,763 autoreload 5632 12952 E:\django-project\health_check_project\health_check_project\settings.py changed, reloading.

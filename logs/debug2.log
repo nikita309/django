@@ -1,0 +1,8 @@
+INFO Watching for file changes with StatReloader
+INFO E:\django-project\health_check_project\health_check_project\settings.py changed, reloading.
+INFO 2022-03-01 18:16:35,086 autoreload  12676 13220 Watching for file changes with StatReloader
+INFO 2022-03-01 18:22:53,481 autoreload  12676 13220 E:\django-project\health_check_project\health_check_project\settings.py changed, reloading.
+INFO 2022-03-01 18:23:05,229 autoreload 14676 3344 Watching for file changes with StatReloader
+INFO 2022-03-01 19:31:03,134 autoreload 14676 3344 E:\django-project\health_check_project\health_check_app\views.py changed, reloading.
+INFO 2022-03-01 19:31:06,031 autoreload 12920 6736 Watching for file changes with StatReloader
+INFO 2022-03-01 19:32:04,610 autoreload 12920 6736 E:\django-project\health_check_project\health_check_project\settings.py changed, reloading.
