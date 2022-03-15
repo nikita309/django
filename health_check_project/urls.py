@@ -18,6 +18,8 @@ from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
 from health_check_app import views
 
+
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('msg/', views.msgs.as_view())
